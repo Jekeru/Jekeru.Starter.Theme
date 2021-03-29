@@ -1,6 +1,6 @@
 # Jekeru.Theme
- Jekeru Wordpress Theme
+ Jekeru Wordpress Starter Theme Example
 
- Based on underscores.me starter theme
+ Based on the blank underscores.me starter theme
 
  Visit https://underscores.me/
