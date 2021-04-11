@@ -1,0 +1,82 @@
+/*
+Theme Name: Jekeru Child
+Theme URI: http://underscores.me/
+Template: jekeru
+Author: Julien KERSAUDY
+Author URI: https://jekeru.fr/
+Description: Jekeru Wordpress Starter Theme
+Tags: custom-background,custom-logo,custom-menu,featured-images,threaded-comments,translation-ready
+Version: 1.0.0.1618155829
+Updated: 2021-04-11 15:43:49
+*/
+/* Custom Css Header
+ * --------------------------------------- */
+/*header layout*/
+#masthead.site-header {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1em
+}
+
+#site-navigation.main-navigation {
+    flex: 1;
+}
+
+#site-navigation.main-navigation ul {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+}
+
+@media screen and (min-width: 37.5em) {
+    #site-navigation.main-navigation ul {
+        flex-flow: wrap;
+        justify-content: flex-end;
+    }
+}
+
+/*spacing menu elements*/
+#site-navigation.main-navigation ul li a {
+    padding-left: 1em
+}
+
+/*remove title spacing*/
+.site-description,
+.site-title {
+    margin: 0
+}
+/* Custom CSS Layout
+ * --------------------------------------- */
+/*sizing content*/
+#primary,
+#colophon,
+#secondary {
+    padding: 1em;
+    max-width: 1160px;
+	margin:auto;
+}
+/* Custom CSS Wordpress
+ * --------------------------------------- */
+.custom-logo {
+	max-width:36px
+}
+#colophon .site-info {
+	display:none!important;
+}
+
+.tags-links {
+    margin: 0 1em;
+}
+
+.tags-links:before {
+    content: '/ ';
+}
+
+.nav-subtitle {
+    font-weight: 700;
+    font-style: italic
+}
